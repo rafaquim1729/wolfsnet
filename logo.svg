@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#00d1ff"/>
+      <stop offset="1" stop-color="#00a8d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <!-- stylized geometric wolf head -->
+  <g transform="translate(36,28) scale(0.9)">
+    <path d="M92 2 L68 42 L32 34 L14 66 L56 84 L50 122 L92 106 L134 122 L128 84 L170 66 L152 34 L116 42 Z"
+      fill="url(#g)" stroke="#002b34" stroke-width="2"/>
+    <circle cx="78" cy="64" r="4" fill="#001a1e" />
+    <circle cx="116" cy="64" r="4" fill="#001a1e" />
+  </g>
+</svg>

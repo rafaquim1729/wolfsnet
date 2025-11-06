@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WolfsNet — Conecte-se com a força do lobo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-wrap">
+      <img src="logo.svg" alt="WolfsNet" class="logo"/>
+    </div>
+    <nav class="main-nav">
+      <a href="#home">Início</a>
+      <a href="#plans">Planos</a>
+      <a href="#about">Sobre Nós</a>
+      <a href="#contact">Contato</a>
+    </nav>
+    <a class="btn-primary cta" href="#plans">Assine Agora</a>
+    <button class="mobile-toggle" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        <h1 class="hero-title">Conecte-se com a força do lobo. Conecte-se com a <span class="accent">WolfsNet</span>.</h1>
+        <p class="hero-sub">Internet rápida, estável e feita para quem exige o melhor desempenho.</p>
+        <div class="hero-ctas">
+          <a class="btn-ghost" href="#plans">Veja nossos planos</a>
+          <a class="btn-primary" href="#contact">Assine Agora</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="plans" class="plans-section">
+      <h2 class="section-title">Nossos Planos</h2>
+      <div class="plans-grid">
+        <article class="plan-card">
+          <div class="plan-top">Básico</div>
+          <div class="plan-speed">120 Mb/s</div>
+          <div class="plan-price">R$ 80,00 <span class="per">/mês</span></div>
+          <p class="plan-desc">Ideal para uso doméstico e navegação diária.</p>
+          <a class="btn-outline" href="#contact">Assinar</a>
+        </article>
+
+        <article class="plan-card recommended">
+          <div class="plan-top">Intermediário</div>
+          <div class="plan-speed">800 Mb/s</div>
+          <div class="plan-price">R$ 120,00 <span class="per">/mês</span></div>
+          <p class="plan-desc">Perfeito para streaming e jogos online.</p>
+          <a class="btn-outline" href="#contact">Assinar</a>
+        </article>
+
+        <article class="plan-card">
+          <div class="plan-top">Premium</div>
+          <div class="plan-speed">1 Gb/s</div>
+          <div class="plan-price">R$ 250,00 <span class="per">/mês</span></div>
+          <p class="plan-desc">Alta performance para empresas e gamers.</p>
+          <a class="btn-outline" href="#contact">Assinar</a>
+        </article>
+
+        <article class="plan-card">
+          <div class="plan-top">Exclusivo</div>
+          <div class="plan-speed">Sob consulta</div>
+          <div class="plan-price">—</div>
+          <p class="plan-desc">Personalizado conforme as necessidades do cliente.</p>
+          <a class="btn-outline" href="#contact">Assinar</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2 class="section-title">Sobre Nós</h2>
+      <div class="about-content">
+        <p><strong>WolfsNet</strong> nasceu da combinação entre tecnologia e compromisso. Acreditamos em conexão com confiança, liderança e fidelidade — valores representados pelo lobo, nosso símbolo. Nossa missão é entregar internet de alta performance, mantendo um atendimento humano e transparente.</p>
+        <p>Investimos em infraestrutura, suporte técnico qualificado e inovação contínua para que você navegue com velocidade e tranquilidade.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Contato</h2>
+      <div class="contact-grid">
+        <form class="contact-form" action="#" onsubmit="alert('Formulário de contato (demo) - entre em contato pelo telefone/email'); return false;">
+          <label>Nome
+            <input type="text" required>
+          </label>
+          <label>E-mail
+            <input type="email" required>
+          </label>
+          <label>Mensagem
+            <textarea rows="4" required></textarea>
+          </label>
+          <button class="btn-primary" type="submit">Enviar</button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Fale conosco</h3>
+          <p>Telefone: (00) 0000-0000</p>
+          <p>Email: contato@wolfsnet.com.br</p>
+          <div class="socials">
+            <a aria-label="Instagram" href="#">IG</a>
+            <a aria-label="Facebook" href="#">FB</a>
+            <a aria-label="Twitter" href="#">TW</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="#">Termos</a>
+      <a href="#">Política de Privacidade</a>
+      <a href="#contact">Contato</a>
+    </div>
+    <div class="footer-copy">© 2025 WolfsNet - Conectando você com a força do lobo.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
